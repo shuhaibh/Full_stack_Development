@@ -1,0 +1,57 @@
+h3{
+        background-color: #2a7aaf;
+}
+
+h2{
+    border: 2px solid blue;
+    padding:25px;
+    margin:30px;
+}
+
+body{
+    font-family: "Monsterat";
+}
+
+p{
+    background-color: burlywood;
+}
+
+h3{
+    background-color: rgba(83,86,27,0.5);
+}
+
+a:hover{
+    color:aqua
+}
+
+.para-text{
+    text-transform: uppercase;
+    text-align: center;
+}
+
+#style-underline{
+    text-decoration: underline;
+}
+
+nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 10px;
+    align-items: center;
+}
+
+nav ul li a{
+    text-decoration: none;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+span{
+    background-color: blanchedalmond;
+    height: 20px;
+    width: 50px;
+    border-radius: 2px;
+}
