@@ -1,4 +1,15 @@
-function Greeting({name}) {
+function Greeting({name,isLoggedIn}) {
+  // if(isLoggedIn){
+  //   return <h1> Welcome Back</h1>
+  // }
+  // else{
+  //   return <h1>Please sign up</h1>
+  // }
+
+// return (
+// <h1>{isLoggedIn ? 'Welcome back!' : 'Please sign up.'}</h1>
+// );
+
   function timeColor(){
     const d = new Date()
     let hour = d.getHours()

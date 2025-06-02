@@ -1,3 +1,5 @@
 .changeColor{
   color: red;
 }
+
+@import "tailwindcss";
